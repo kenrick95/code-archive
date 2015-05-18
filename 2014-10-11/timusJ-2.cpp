@@ -1,0 +1,76 @@
+#include <algorithm>
+#include <cmath>
+#include <cstring>
+#include <fstream>
+#include <iostream>
+#include <map>
+#include <queue>
+#include <stack>
+#include <string>
+#include <vector>
+#include <cstdlib>
+#include <set>
+#define DEBUG printf("TEST\n")
+#define HOLD scanf("%*c%*c")
+
+using namespace std;
+
+int N;
+
+bool da[1005], db[1005];
+
+struct datum
+{
+     int val, origin;
+    bool operator < (datum A) const{ return val < A.val || (val == A.val && origin < A.origin); }
+} a[1005], b[1005];
+
+/*bool comp1(const datum &a, const datum &b)
+{
+     return a.val < b.val || (a.val == b.val && a.origin < b.origin);
+}*/
+
+int sa, sb, la, lb;
+
+int main()
+{
+     
+     scanf("%d", &N);
+     for(int i = 0; i < N; ++i)
+     {
+          scanf("%d", &a[i].val);
+          a[i].origin = i;
+     }
+     for(int i = 0; i < N; ++i)
+     {
+          scanf("%d", &b[i].val);
+          b[i].origin = i;
+     }
+     sort(a, a + N);
+     sort(b, b + N);
+     
+     int i = 0, j = 0;
+     int left = N;
+     // last one
+     la = lb = N - 1;
+     while(left > 0)
+     {
+          for(; da[i]; i = (i + 1) % N);
+          for(; db[j]; j = (j + 1) % N);
+          
+          for(; i + 1 <= la && sa + a[i].val + 6 * (left - 1) < sb; i++);
+          for(; j + 1 <= lb && sb + b[j].val + 6 * (left - 1) < sa; j++);
+          
+          da[i] = db[j] = true;
+          sa += a[i].val;
+          sb += b[j].val;
+          left--;
+          
+          for(; la >= 0 && da[la]; la--);
+          for(; lb >= 0 && db[lb]; lb--);
+          
+          printf("%d %d\n", a[i].origin + 1, b[j].origin + 1);
+     }
+     
+     return 0;
+}

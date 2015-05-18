@@ -1,0 +1,399 @@
+From 33 to 84:
+Path: 33-->62-->69-->87-->84
+Total cost: 952
+
+From 83 to 74:
+Path: 83-->34-->86-->77-->74
+Total cost: 634
+
+From 65 to 80:
+Path: 65-->73-->95-->6-->80
+Total cost: 1382
+
+From 90 to 32:
+Path: 90-->94-->22-->32
+Total cost: 631
+
+From 70 to 14:
+Path: 70-->52-->98-->46-->4-->14
+Total cost: 777
+
+From 19 to 78:
+Path: 19-->11-->78
+Total cost: 956
+
+From 99 to 1:
+Path: 99-->1
+Total cost: 251
+
+From 45 to 42:
+Path: 45-->80-->42
+Total cost: 837
+
+From 5 to 34:
+Path: 5-->50-->10-->63-->34
+Total cost: 582
+
+From 82 to 95:
+Path: 82-->98-->75-->77-->95
+Total cost: 668
+
+From 100 to 9:
+Path: 100-->36-->9
+Total cost: 685
+
+From 45 to 10:
+Path: 45-->28-->55-->97-->10
+Total cost: 935
+
+From 84 to 44:
+Path: 84-->87-->38-->43-->36-->44
+Total cost: 810
+
+From 64 to 26:
+Path: 64-->4-->14-->62-->26
+Total cost: 979
+
+From 84 to 66:
+Path: 84-->87-->38-->43-->92-->77-->66
+Total cost: 1181
+
+From 79 to 24:
+Path: 79-->24
+Total cost: 1244
+
+From 98 to 10:
+Path: 98-->46-->34-->63-->10
+Total cost: 713
+
+From 64 to 13:
+Path: 64-->4-->13
+Total cost: 337
+
+From 27 to 11:
+Path: 27-->36-->11
+Total cost: 705
+
+From 98 to 78:
+Path: 98-->100-->36-->78
+Total cost: 890
+
+From 49 to 4:
+Path: 49-->18-->99-->58-->14-->4
+Total cost: 910
+
+From 75 to 56:
+Path: 75-->98-->82-->91-->20-->16-->44-->56
+Total cost: 755
+
+From 15 to 63:
+Path: 15-->38-->10-->63
+Total cost: 740
+
+From 27 to 52:
+Path: 27-->36-->43-->38-->87-->52
+Total cost: 697
+
+From 84 to 14:
+Path: 84-->87-->52-->98-->46-->4-->14
+Total cost: 1233
+
+From 66 to 78:
+Path: 66-->77-->92-->43-->36-->78
+Total cost: 857
+
+From 5 to 12:
+Path: 5-->50-->23-->4-->95-->47-->12
+Total cost: 1062
+
+From 9 to 36:
+Path: 9-->36
+Total cost: 239
+
+From 62 to 76:
+Path: 62-->67-->76
+Total cost: 939
+
+From 40 to 29:
+Path: 40-->29
+Total cost: 519
+
+From 30 to 47:
+Path: 30-->54-->10-->63-->81-->31-->47
+Total cost: 1075
+
+From 75 to 79:
+Path: 75-->98-->46-->4-->28-->55-->79
+Total cost: 974
+
+From 27 to 65:
+Path: 27-->67-->65
+Total cost: 1455
+
+From 14 to 53:
+Path: 14-->4-->53
+Total cost: 475
+
+From 3 to 71:
+Path: 3-->53-->80-->42-->71
+Total cost: 1024
+
+From 73 to 32:
+Path: 73-->37-->34-->22-->32
+Total cost: 745
+
+From 50 to 18:
+Path: 50-->5-->3-->18
+Total cost: 964
+
+From 7 to 2:
+Path: 7-->25-->87-->2
+Total cost: 947
+
+From 4 to 3:
+Path: 4-->53-->3
+Total cost: 540
+
+From 40 to 98:
+Path: 40-->22-->94-->52-->98
+Total cost: 980
+
+From 88 to 36:
+Path: 88-->9-->36
+Total cost: 428
+
+From 10 to 59:
+Path: 10-->59
+Total cost: 226
+
+From 84 to 65:
+Path: 84-->65
+Total cost: 1381
+
+From 28 to 76:
+Path: 28-->55-->97-->76
+Total cost: 728
+
+From 63 to 36:
+Path: 63-->10-->97-->43-->36
+Total cost: 607
+
+From 66 to 10:
+Path: 66-->77-->86-->34-->63-->10
+Total cost: 396
+
+From 66 to 46:
+Path: 66-->4-->46
+Total cost: 486
+
+From 88 to 57:
+Path: 88-->9-->36-->44-->56-->57
+Total cost: 1215
+
+From 54 to 80:
+Path: 54-->10-->63-->34-->86-->6-->80
+Total cost: 607
+
+From 1 to 97:
+Path: 1-->77-->86-->34-->63-->10-->97
+Total cost: 676
+
+From 88 to 13:
+Path: 88-->37-->34-->83-->21-->13
+Total cost: 831
+
+From 10 to 37:
+Path: 10-->63-->34-->37
+Total cost: 242
+
+From 72 to 22:
+Path: 72-->38-->43-->22
+Total cost: 797
+
+From 16 to 47:
+Path: 16-->44-->56-->81-->31-->47
+Total cost: 906
+
+From 70 to 2:
+Path: 70-->52-->87-->2
+Total cost: 590
+
+From 15 to 20:
+Path: 15-->38-->43-->36-->44-->16-->20
+Total cost: 665
+
+From 77 to 86:
+Path: 77-->86
+Total cost: 125
+
+From 95 to 51:
+Path: 95-->6-->86-->34-->63-->51
+Total cost: 985
+
+From 47 to 5:
+Path: 47-->95-->4-->23-->50-->5
+Total cost: 1005
+
+From 38 to 51:
+Path: 38-->87-->51
+Total cost: 1109
+
+From 25 to 38:
+Path: 25-->87-->38
+Total cost: 518
+
+From 33 to 22:
+Path: 33-->39-->43-->22
+Total cost: 708
+
+From 37 to 36:
+Path: 37-->88-->9-->36
+Total cost: 554
+
+From 83 to 41:
+Path: 83-->34-->37-->41
+Total cost: 746
+
+From 21 to 50:
+Path: 21-->83-->34-->63-->10-->50
+Total cost: 611
+
+From 64 to 32:
+Path: 64-->29-->22-->32
+Total cost: 995
+
+From 21 to 99:
+Path: 21-->83-->34-->86-->77-->1-->99
+Total cost: 726
+
+From 11 to 33:
+Path: 11-->30-->97-->43-->39-->33
+Total cost: 913
+
+From 25 to 13:
+Path: 25-->87-->6-->13
+Total cost: 1178
+
+From 33 to 48:
+Path: 33-->62-->26-->48
+Total cost: 746
+
+From 6 to 98:
+Path: 6-->86-->77-->75-->98
+Total cost: 698
+
+From 64 to 72:
+Path: 64-->4-->28-->72
+Total cost: 838
+
+From 64 to 7:
+Path: 64-->4-->46-->34-->63-->7
+Total cost: 1208
+
+From 26 to 11:
+Path: 26-->48-->20-->16-->11
+Total cost: 1005
+
+From 46 to 51:
+Path: 46-->34-->63-->51
+Total cost: 991
+
+From 70 to 18:
+Path: 70-->52-->87-->2-->18
+Total cost: 1007
+
+From 64 to 30:
+Path: 64-->4-->14-->30
+Total cost: 826
+
+From 93 to 58:
+Path: 93-->74-->23-->4-->14-->58
+Total cost: 1164
+
+From 13 to 88:
+Path: 13-->21-->83-->34-->37-->88
+Total cost: 831
+
+From 86 to 69:
+Path: 86-->77-->69
+Total cost: 619
+
+From 90 to 31:
+Path: 90-->87-->31
+Total cost: 685
+
+From 95 to 91:
+Path: 95-->4-->91
+Total cost: 682
+
+From 52 to 62:
+Path: 52-->87-->69-->62
+Total cost: 669
+
+From 25 to 66:
+Path: 25-->7-->63-->34-->86-->77-->66
+Total cost: 1119
+
+From 75 to 5:
+Path: 75-->98-->5
+Total cost: 395
+
+From 13 to 80:
+Path: 13-->6-->80
+Total cost: 441
+
+From 3 to 89:
+Path: 3-->18-->49-->89
+Total cost: 1309
+
+From 64 to 97:
+Path: 64-->68-->76-->97
+Total cost: 706
+
+From 17 to 81:
+Path: 17-->12-->47-->31-->81
+Total cost: 695
+
+From 96 to 61:
+Path: 96-->91-->20-->16-->61
+Total cost: 908
+
+From 62 to 9:
+Path: 62-->33-->71-->9
+Total cost: 696
+
+From 53 to 44:
+Path: 53-->3-->61-->16-->44
+Total cost: 752
+
+From 26 to 29:
+Path: 26-->62-->33-->71-->42-->29
+Total cost: 1216
+
+From 50 to 46:
+Path: 50-->23-->4-->46
+Total cost: 414
+
+From 11 to 2:
+Path: 11-->30-->97-->43-->38-->87-->2
+Total cost: 1110
+
+From 78 to 37:
+Path: 78-->36-->9-->88-->37
+Total cost: 814
+
+From 16 to 99:
+Path: 16-->99
+Total cost: 614
+
+From 61 to 93:
+Path: 61-->3-->53-->93
+Total cost: 841
+
+From 57 to 67:
+Path: 57-->56-->81-->67
+Total cost: 1299
+
+From 34 to 27:
+Path: 34-->63-->10-->97-->43-->36-->27
+Total cost: 867

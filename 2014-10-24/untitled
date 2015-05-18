@@ -1,0 +1,32 @@
+#include <iostream>
+#include <fstream>
+#include <cstdio>
+#include <cmath>
+#include <algorithm>
+#include <cstring>
+#include <string>
+#define INF 1000000000000LL
+
+typedef long long int64;
+typedef unsigned long long qword;
+using namespace std;
+
+/* Problem: 
+ * URL: 
+ */
+
+
+int main(){
+	//freopen("test.in","r",stdin);
+	//freopen("test.out","w",stdout);
+    int m,n;
+    int p[110], f[110];
+    
+    scanf("%d %d", &m, &n);
+    for (int i = 0; i < n; i++) {
+        scanf("%d %d", &p[i], &f[i]);
+    }
+    pritnf("%d\n", f(0, m));
+    
+	return 0;
+}

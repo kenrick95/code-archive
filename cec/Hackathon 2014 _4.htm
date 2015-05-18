@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Hackathon 2014 | </title>
+        
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+
+        
+    <link href="Hackathon%202014%20_4_files/theme.css" rel="stylesheet">
+    <link href="Hackathon%202014%20_4_files/site.css" rel="stylesheet">
+    <style type="text/css">
+        section {padding-top:0px;}
+    </style>
+    
+    <link rel="stylesheet" type="text/css" href="Hackathon%202014%20_4_files/map.htm">
+    <link rel="stylesheet" type="text/css" href="Hackathon%202014%20_4_files/hackathon.css">
+
+
+
+        
+            <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+            <!--[if lt IE 9]>
+                <script src="/site_media/static/pinax/js/html5shiv.js"></script>
+            <![endif]-->
+        
+
+        
+    
+
+    </head>
+    <body class="" id="">
+        <div class="">
+
+            
+                <header>
+                    <div class="navbar navbar-default navbar-fixed-top">
+                        <div class="container">
+                        
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="fa fa-bar"></span>
+                                    <span class="fa fa-bar"></span>
+                                    <span class="fa fa-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="http://155.69.146.139:8002/">Hackathon 2014</a>
+                            </div>
+                            <div class="collapse navbar-collapse">
+                                
+                                    
+    <ul class="nav navbar-nav">
+        <li><a href="http://155.69.146.139:8002/ranking/">Leaderboard</a></li>
+    </ul>
+
+
+                                
+
+
+
+<ul class="nav navbar-nav pull-right">
+    
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                kenrick95
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="http://155.69.146.139:8002/accounts/settings/"><i class="fa fa-user"></i> Settings</a></li>
+                
+                <li class="divider"></li>
+                <li>
+                    <a id="account_logout" href="http://155.69.146.139:8002/accounts/logout/"><i class="fa fa-power-off"></i> Log out</a>
+                </li>
+            </ul>
+        </li>
+    
+</ul>
+
+<form id="accountLogOutForm" style="display: none;" action="/accounts/logout/" method="POST">
+    <input name="csrfmiddlewaretoken" value="LXLvVTnJqDHpzxyqONUKf4bXs4drzMgF" type="hidden">
+</form>
+
+                            </div>
+                        
+                        </div>
+                    </div>
+                </header>
+            
+
+            
+                <section id="content_body">
+                    <div class="container">
+                        
+
+                        
+
+	<p><a href="http://155.69.146.139:8002/" class="btn btn-primary btn-large">« Back</a>
+	<a href="http://155.69.146.139:8002/ranking/" class="btn btn-primary btn-large pull-right">Leaderboard »</a></p>
+
+    <ul class="nav nav-tabs">
+	  <li class="active"><a href="#problem" data-toggle="tab"><h5>Problem</h5></a></li>
+      <li><a href="#submission" data-toggle="tab"><h5>Submissions</h5></a></li>
+    
+	</ul>
+
+	<div id="myTabContent" class="tab-content">
+		<div class="tab-pane fade active in" id="problem">
+			
+			<h4 style="color: #1A5CC8">Problem Description</h4>
+			<p>There are N cities in the province of Eastern Cape. A cargo 
+company helps clients deliver cargos among these N cities. There may be 
+one transportation link or none between any given pair of cities. The 
+transportation fee consists of two parts:</p>
+
+<ul>
+<li>The cost of the transportation on the route between these cities, and</li>
+<li>A tax which will be charged whenever cargo passes through a city that is not the source or    destination city</li>
+</ul>
+
+<p>Please help find the route between two given cities which incurs the lowest cost.</p>
+
+<p><strong>Input</strong></p>
+
+<p>The first input is N, number of cities. N = 0 indicates the end of input.</p>
+
+<p>The data about the cost of each path, tax charged by each city, and 
+the source and destination cities are given in the input, which is of 
+the following form:</p>
+
+<pre><code>a11 a12 ... a1N
+a21 a22 ... a2N
+...............
+aN1 aN2 ... aNN
+b1  b2  ... bN
+
+c d
+e f
+...
+g h
+</code></pre>
+
+<p>where aij is the transport cost from city i to city j, aij = -1 
+indicates there is no direct path between city i and city j. bi 
+represents the tax of passing through city i. And the cargo is to be 
+delivered from city c to city d, city e to city f, ..., and g = h = -1. 
+Your program must output the sequence of cities to be passed through and
+ the total cost in the following form:</p>
+
+<p><strong>Output</strong></p>
+
+<pre><code>From c to d :
+Path: c--&gt;c1--&gt;......--&gt;ck--&gt;d
+Total cost : ......
+......
+
+From e to f :
+Path: e--&gt;e1--&gt;..........--&gt;ek--&gt;f
+Total cost : ......
+</code></pre>
+
+<p>Note: if there are more than one paths incurring the same lowest 
+cost, output the lexically smallest one. Print a blank line after each 
+test case.</p>
+
+<p><strong>Sample Input File</strong></p>
+
+<pre><code>5
+0 3 22 -1 4
+3 0 5 -1 -1
+22 5 0 9 20
+-1 -1 9 0 4
+4 -1 20 4 0
+5 17 8 3 1
+1 3
+3 5
+2 4
+-1 -1
+0
+</code></pre>
+
+<p><strong>Sample Output File</strong></p>
+
+<pre><code>From 1 to 3:
+Path: 1--&gt;5--&gt;4--&gt;3
+Total cost: 21
+
+From 3 to 5:
+Path: 3--&gt;4--&gt;5
+Total cost: 16
+
+From 2 to 4:
+Path: 2--&gt;1--&gt;5--&gt;4
+Total cost: 17
+</code></pre>
+
+			<div class="row">
+				<div class="col-md-6">
+		            <h4 style="color: #1A5CC8">Download Input File (100 test cases, 204 lines)</h4>
+		            <a href="http://155.69.146.139:8002/site_media/media/documents/problems/Graph/input.txt">input.txt</a>
+		            <div class="clearfix"></div>
+        		</div>
+
+        		<div class="col-md-6">
+        			<form enctype="multipart/form-data" method="POST" action="." autocapitalize="off" class="form-horizontal" onsubmit="return Checkfiles();">
+					<input name="csrfmiddlewaretoken" value="LXLvVTnJqDHpzxyqONUKf4bXs4drzMgF" type="hidden">
+		            <h4 style="color: #1A5CC8">Upload Your Solution</h4>
+		            <h5 style="color: #1A5CC8">Source Code</h5>
+		            <input name="src_code" id="src_code" style="margin-bottom:10px;" type="file">
+
+		            <h5 style="color: #1A5CC8">Output File (expected number of lines is 399)</h5>
+		            <input name="output" id="output" style="margin-bottom:10px;" type="file">
+		            <input class="btn btn-primary" value="Submit" type="submit">
+		            </form>
+        		</div>
+        	</div>
+
+        	
+        </div>
+
+        <div class="tab-pane fade" id="submission">
+	        <table class="table table-striped">  
+	        <thead>  
+	          <tr>  
+	            <th>Time</th>  
+	            <th>Status</th>   
+	          </tr>  
+	        </thead>  
+	        <tbody>  
+	        	
+		          <tr style="color:red;">  
+		            <td>Feb. 20, 2014, 4:35 a.m.</td> 
+		             
+		            <td>Accepted</td>
+		            
+		          </tr> 
+		         
+	        </tbody>  
+	      </table>  
+	    </div>
+	</div>
+
+
+                    </div>
+                </section>
+            
+
+            
+                <hr>
+                <footer>
+                    <div class="container">
+                        
+    
+
+© 2014 Computer Engineering Club
+
+
+                    </div>
+                </footer>
+            
+        </div>
+
+        
+    <script src="Hackathon%202014%20_4_files/jquery.js"></script>
+    <script src="Hackathon%202014%20_4_files/bootstrap.js"></script>
+    <script src="Hackathon%202014%20_4_files/theme.js"></script>
+    
+
+  <script type="text/javascript">
+  function Checkfiles()
+	{
+		var s = document.getElementById('src_code');
+		var o = document.getElementById('output');
+		
+		if(s.value!='' && o.value!='')
+		{
+			return true;
+		} 
+		else
+		{
+			alert("Please upload both the source code and answer!");
+			return false;
+		}
+	}
+
+	var url = document.location.toString();
+	if (url.match('#')) {
+	    $('.nav-tabs a[href=#'+url.split('#')[1]+']').tab('show') ;
+	} 
+
+	// Change hash for page-reload
+	$('.nav-tabs a').on('shown', function (e) {
+	    window.location.hash = e.target.hash;
+	})
+  </script>
+
+
+
+        
+    
+    
+
+    
+
+</body></html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Hackathon 2014 | </title>
+        
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+
+        
+    <link href="Hackathon%202014%20_1_files/theme.css" rel="stylesheet">
+    <link href="Hackathon%202014%20_1_files/site.css" rel="stylesheet">
+    <style type="text/css">
+        section {padding-top:0px;}
+    </style>
+    
+    <link rel="stylesheet" type="text/css" href="Hackathon%202014%20_1_files/map.htm">
+    <link rel="stylesheet" type="text/css" href="Hackathon%202014%20_1_files/hackathon.css">
+
+
+
+        
+            <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+            <!--[if lt IE 9]>
+                <script src="/site_media/static/pinax/js/html5shiv.js"></script>
+            <![endif]-->
+        
+
+        
+    
+
+    </head>
+    <body class="" id="">
+        <div class="">
+
+            
+                <header>
+                    <div class="navbar navbar-default navbar-fixed-top">
+                        <div class="container">
+                        
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="fa fa-bar"></span>
+                                    <span class="fa fa-bar"></span>
+                                    <span class="fa fa-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="http://155.69.146.139:8002/">Hackathon 2014</a>
+                            </div>
+                            <div class="collapse navbar-collapse">
+                                
+                                    
+    <ul class="nav navbar-nav">
+        <li><a href="http://155.69.146.139:8002/ranking/">Leaderboard</a></li>
+    </ul>
+
+
+                                
+
+
+
+<ul class="nav navbar-nav pull-right">
+    
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                kenrick95
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="http://155.69.146.139:8002/accounts/settings/"><i class="fa fa-user"></i> Settings</a></li>
+                
+                <li class="divider"></li>
+                <li>
+                    <a id="account_logout" href="http://155.69.146.139:8002/accounts/logout/"><i class="fa fa-power-off"></i> Log out</a>
+                </li>
+            </ul>
+        </li>
+    
+</ul>
+
+<form id="accountLogOutForm" style="display: none;" action="/accounts/logout/" method="POST">
+    <input name="csrfmiddlewaretoken" value="LXLvVTnJqDHpzxyqONUKf4bXs4drzMgF" type="hidden">
+</form>
+
+                            </div>
+                        
+                        </div>
+                    </div>
+                </header>
+            
+
+            
+                <section id="content_body">
+                    <div class="container">
+                        
+
+                        
+
+	<p><a href="http://155.69.146.139:8002/" class="btn btn-primary btn-large">« Back</a>
+	<a href="http://155.69.146.139:8002/ranking/" class="btn btn-primary btn-large pull-right">Leaderboard »</a></p>
+
+    <ul class="nav nav-tabs">
+	  <li class="active"><a href="#problem" data-toggle="tab"><h5>Problem</h5></a></li>
+      <li><a href="#submission" data-toggle="tab"><h5>Submissions</h5></a></li>
+    
+	</ul>
+
+	<div id="myTabContent" class="tab-content">
+		<div class="tab-pane fade active in" id="problem">
+			
+			<h4 style="color: #1A5CC8">Problem Description</h4>
+			<p>Regina and Gretchen go with their friend Cady to indulge in a 
+shopping spree. However Cady only has a limited amount of money. Her 
+friends want her to buy as many clothes as she can. They suggest N items
+ but Cady only has K dollars. </p>
+
+<p>Help Cady buy as many clothes as possible.</p>
+
+<p><strong>Input</strong></p>
+
+<p>For each problem, there are two lines. The first line of each problem
+ will contain two inputs N and K, followed by a line containing N 
+integers each representing the price of a clothing item.</p>
+
+<p><strong>Output</strong></p>
+
+<p>Maximum number of clothes Cady can buy.</p>
+
+<p><strong>Constraints</strong></p>
+
+<blockquote>
+<p>1&lt;=N&lt;=10^4</p>
+<p>1&lt;=K&lt;=10^8</p>
+<p>1&lt;=price of any clothing item&lt;=10^8</p>
+</blockquote>
+
+<p><strong>Sample Input File</strong></p>
+
+<pre><code>8 500
+30 120 50 110 200 1000 100 150
+5 1000
+75 60 1000 160 500
+</code></pre>
+
+<p><strong>Sample Output File</strong></p>
+
+<pre><code>5
+4
+</code></pre>
+
+			<div class="row">
+				<div class="col-md-6">
+		            <h4 style="color: #1A5CC8">Download Input File (100 test cases, 200 lines)</h4>
+		            <a href="http://155.69.146.139:8002/site_media/media/documents/problems/Sorting/input.txt">input.txt</a>
+		            <div class="clearfix"></div>
+        		</div>
+
+        		<div class="col-md-6">
+        			<form enctype="multipart/form-data" method="POST" action="." autocapitalize="off" class="form-horizontal" onsubmit="return Checkfiles();">
+					<input name="csrfmiddlewaretoken" value="LXLvVTnJqDHpzxyqONUKf4bXs4drzMgF" type="hidden">
+		            <h4 style="color: #1A5CC8">Upload Your Solution</h4>
+		            <h5 style="color: #1A5CC8">Source Code</h5>
+		            <input name="src_code" id="src_code" style="margin-bottom:10px;" type="file">
+
+		            <h5 style="color: #1A5CC8">Output File (expected number of lines is 100)</h5>
+		            <input name="output" id="output" style="margin-bottom:10px;" type="file">
+		            <input class="btn btn-primary" value="Submit" type="submit">
+		            </form>
+        		</div>
+        	</div>
+
+        	
+        </div>
+
+        <div class="tab-pane fade" id="submission">
+	        <table class="table table-striped">  
+	        <thead>  
+	          <tr>  
+	            <th>Time</th>  
+	            <th>Status</th>   
+	          </tr>  
+	        </thead>  
+	        <tbody>  
+	        	
+		          <tr style="color:red;">  
+		            <td>Feb. 20, 2014, 2:48 a.m.</td> 
+		             
+		            <td>Accepted</td>
+		            
+		          </tr> 
+		         
+	        </tbody>  
+	      </table>  
+	    </div>
+	</div>
+
+
+                    </div>
+                </section>
+            
+
+            
+                <hr>
+                <footer>
+                    <div class="container">
+                        
+    
+
+© 2014 Computer Engineering Club
+
+
+                    </div>
+                </footer>
+            
+        </div>
+
+        
+    <script src="Hackathon%202014%20_1_files/jquery.js"></script>
+    <script src="Hackathon%202014%20_1_files/bootstrap.js"></script>
+    <script src="Hackathon%202014%20_1_files/theme.js"></script>
+    
+
+  <script type="text/javascript">
+  function Checkfiles()
+	{
+		var s = document.getElementById('src_code');
+		var o = document.getElementById('output');
+		
+		if(s.value!='' && o.value!='')
+		{
+			return true;
+		} 
+		else
+		{
+			alert("Please upload both the source code and answer!");
+			return false;
+		}
+	}
+
+	var url = document.location.toString();
+	if (url.match('#')) {
+	    $('.nav-tabs a[href=#'+url.split('#')[1]+']').tab('show') ;
+	} 
+
+	// Change hash for page-reload
+	$('.nav-tabs a').on('shown', function (e) {
+	    window.location.hash = e.target.hash;
+	})
+  </script>
+
+
+
+        
+    
+    
+
+    
+
+</body></html>
