@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bacc",
+				"background-color"
+			],
+			[
 				"heal",
 				"health_issue"
 			],
@@ -76,36 +80,51 @@
 	"buffers":
 	[
 		{
-			"file": "2015-05-10/uva10261.cpp",
-			"settings":
-			{
-				"buffer_size": 1567,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "test.cpp",
 			"settings":
 			{
-				"buffer_size": 457,
+				"buffer_size": 458,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "2015-05/uva10125.cpp",
+			"file": "2015-05/uva10347.cpp",
 			"settings":
 			{
-				"buffer_size": 3086,
+				"buffer_size": 982,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "2015-05/uva10125.in",
+			"file": "2015-06/uva11152.cpp",
 			"settings":
 			{
-				"buffer_size": 123,
-				"line_ending": "Windows",
-				"name": "5"
+				"buffer_size": 921,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Cloud/GitHub/Codeforces-Tools/index.html",
+			"settings":
+			{
+				"buffer_size": 4572,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Cloud/GitHub/Codeforces-Tools/css/main.css",
+			"settings":
+			{
+				"buffer_size": 1607,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Cloud/GitHub/Codeforces-Tools/js/main.js",
+			"settings":
+			{
+				"buffer_size": 18299,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -132,16 +151,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 288.0,
-		"last_filter": "",
+		"height": 311.0,
+		"last_filter": "disa",
 		"selected_items":
 		[
 			[
-				"package in",
-				"Package Control: Install Package"
+				"disa",
+				"Package Control: Disable Package"
 			],
 			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
 				"Package Control: Install Package"
 			],
 			[
@@ -198,10 +221,22 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Data/Code"
+		"/D/Cloud/GitHub/Codeforces-Tools",
+		"/D/Cloud/GitHub/Codeforces-Tools/css",
+		"/D/Cloud/GitHub/Codeforces-Tools/js"
 	],
 	"file_history":
 	[
+		"/D/Data/Code/2015-05/osn2015-a.cpp",
+		"/D/wamp/www/plan/back_end/parser/parse.php",
+		"/D/Cloud/Healint/Alert Test/Attack Notifier.html",
+		"/D/Data/Code/2015-05/uva10263.cpp",
+		"/D/Data/Code/2015-05/uva152.cpp",
+		"/D/Data/Downloads/Attack Notifier.html",
+		"/D/Data/Code/.gitignore",
+		"/D/Data/Code/2015-05-10/uva10261.cpp",
+		"/D/Data/Code/2015-05/uva10125.cpp",
+		"/D/Data/Code/2015-05/uva10125.in",
 		"/D/Data/Code/test.cpp",
 		"/D/Data/Code/2015-05-10/uva11909.cpp",
 		"/D/Data/Code/2015-05-10 Google Codejam Round 1C/a.cpp",
@@ -319,19 +354,11 @@
 		"/C/Users/Kenrick/Desktop/2015-02/wm2015-a.txt",
 		"/C/Users/Kenrick/Desktop/2015-02/wm2015-b.txt",
 		"/C/Users/Kenrick/Desktop/wm2015-b.txt",
-		"/C/Users/Kenrick/Desktop/wm2015-a.txt",
-		"/C/Users/Kenrick/Desktop/Start Outlook at logon.xml",
-		"/D/wamp/www/Raun/css/style.css",
-		"/D/wamp/www/Migrated/pc/wbi.php",
-		"/D/wamp/www/Raun/js/raun-streamlined-2.js",
-		"/D/wamp/www/idwiki-common.js",
-		"/D/wamp/www/2015/timer/index.html",
-		"/D/wamp/www/2015/timer/style.css",
-		"/C/Users/Kenrick/Desktop/post-resource.txt"
+		"/C/Users/Kenrick/Desktop/wm2015-a.txt"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -347,6 +374,38 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"el_verdict",
+			" ",
+			"verdict",
+			"Verdict",
+			"verdict",
+			"createElement",
+			"border",
+			"tagField",
+			"addTag",
+			"tagField",
+			"span",
+			"join",
+			"span",
+			".join",
+			":hover",
+			"hover",
+			"element",
+			"insertCell(",
+			"insertCell",
+			"tags",
+			"Tags",
+			"tags",
+			"Tags",
+			"TAGS",
+			"#container-root",
+			"d",
+			"lowerLeftColumnContainer",
+			"d",
+			"int",
+			"int ",
+			"int",
+			"b",
 			"mi",
 			"i",
 			"j",
@@ -442,39 +501,7 @@
 			".\"",
 			"application",
 			"[value-1]",
-			"date_of_birth",
-			"* `status`: 0 on success, -1 otherwise",
-			"startSession",
-			"session_id",
-			"session_start()",
-			"user",
-			"information",
-			"id",
-			"$",
-			": ",
-			"email",
-			"empty",
-			"||",
-			"_ENV",
-			"$",
-			"# ",
-			"username",
-			"password",
-			"]",
-			"$_POST",
-			"response",
-			"$connect, ",
-			"projects",
-			"tahuun",
-			"masa",
-			"console.",
-			"</div>",
-			">>",
-			":; ",
-			"; ",
-			"\");",
-			".text(\"",
-			"(\""
+			"date_of_birth"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -497,55 +524,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "2015-05-10/uva10261.cpp",
+					"file": "test.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1567,
+						"buffer_size": 458,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1380,
-								1380
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 810.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "test.cpp",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 457,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								457
+								329,
+								329
 							]
 						],
 						"settings":
@@ -557,24 +553,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "2015-05/uva10125.cpp",
+					"buffer": 1,
+					"file": "2015-05/uva10347.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3086,
+						"buffer_size": 982,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2284,
-								2284
+								415,
+								415
 							]
 						],
 						"settings":
@@ -583,40 +579,132 @@
 							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1396.0,
+						"translation.y": 114.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "2015-05/uva10125.in",
+					"buffer": 2,
+					"file": "2015-06/uva11152.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 123,
+						"buffer_size": 921,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								123
+								387,
+								392
 							]
 						],
 						"settings":
 						{
-							"auto_name": "5",
 							"colorcode": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Cloud/GitHub/Codeforces-Tools/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4206,
+								4208
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1311.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/Cloud/GitHub/Codeforces-Tools/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								551,
+								551
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 627.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/Cloud/GitHub/Codeforces-Tools/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10414,
+								10424
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"colorcode": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5580.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -696,9 +784,21 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "code",
 		"selected_items":
 		[
+			[
+				"code",
+				"D:\\Data\\Code\\code.sublime-project"
+			],
+			[
+				"2015",
+				"D:\\wamp\\www\\2015\\2015.sublime-project"
+			],
+			[
+				"h",
+				"D:\\Cloud\\Healint\\healint.sublime-project"
+			],
 			[
 				"",
 				"D:\\Cloud\\Healint\\healint.sublime-project"

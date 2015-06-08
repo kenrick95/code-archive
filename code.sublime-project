@@ -2,8 +2,10 @@
 	"folders":
 	[
 		{
-			"follow_symlinks": true,
 			"path": "."
+		},
+		{
+			"path": "D:\\Cloud\\GitHub\\Codeforces-Tools"
 		}
 	]
 }
