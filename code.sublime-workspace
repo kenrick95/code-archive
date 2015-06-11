@@ -110,15 +110,6 @@
 				"buffer_size": 1591,
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"contents": "2\n11\n1100 1200\n0 500\n1400 100\n600 600\n2800 0\n400 1100\n1700 600\n1500 800\n2100 300\n1800 700\n2400 500\n2\n0 1000\n1000 0",
-			"settings":
-			{
-				"buffer_size": 114,
-				"line_ending": "Windows",
-				"name": "2"
-			}
 		}
 	],
 	"build_system": "Packages/C++/C++ Single File.sublime-build",
@@ -546,7 +537,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -577,7 +568,7 @@
 						"translation.y": 121.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -608,7 +599,7 @@
 						"translation.y": 2850.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -624,8 +615,8 @@
 						"selection":
 						[
 							[
-								0,
-								1591
+								321,
+								321
 							]
 						],
 						"settings":
@@ -634,39 +625,10 @@
 							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 684.0,
+						"translation.y": 121.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								114
-							]
-						],
-						"settings":
-						{
-							"auto_name": "2",
-							"colorcode": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -746,9 +708,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "hea",
 		"selected_items":
 		[
+			[
+				"hea",
+				"D:\\Cloud\\Healint\\healint.sublime-project"
+			],
 			[
 				"",
 				"D:\\Cloud\\Healint\\healint.sublime-project"
