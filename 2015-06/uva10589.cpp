@@ -17,7 +17,7 @@ using namespace std;
 /**
  * @problem Area
  * @url     https://uva.onlinejudge.org/external/105/p10589.pdf
- * @status  
+ * @status  AC
  */
 
 struct point
