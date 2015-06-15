@@ -123,7 +123,7 @@
 			"file": "2015-06/uva10927.cpp",
 			"settings":
 			{
-				"buffer_size": 2563,
+				"buffer_size": 2565,
 				"line_ending": "Windows"
 			}
 		}
@@ -669,7 +669,9 @@
 						"settings":
 						{
 							"colorcode": true,
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 57.0,
@@ -684,15 +686,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2563,
+						"buffer_size": 2565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								401,
-								406
+								235,
+								235
 							]
 						],
 						"settings":
@@ -785,15 +787,15 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "hea",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"hea",
+				"",
 				"D:\\Cloud\\Healint\\healint.sublime-project"
 			],
 			[
-				"",
+				"hea",
 				"D:\\Cloud\\Healint\\healint.sublime-project"
 			],
 			[
