@@ -141,6 +141,15 @@ double distToSegment(point p, point a, point b, point &c) {
     return distToLine(p, a, b, c);
 }
 
+double angle(point a, point o, point b) {
+    vec oa = toVec(o, a), ob = toVec(o, b);
+    return acos(dot(oa, ob) / sqrt(norm_sq(oa) * norm_sq(ob)));
+}
+double cross(vec a, vec b) {
+    return a.x * b.y - a.y * b.x;
+}
+
+
 vector<point> P;
 
 int main(){
