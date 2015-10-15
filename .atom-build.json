@@ -1,0 +1,6 @@
+{
+  "cmd": "g++",
+  "name": "<name of target>",
+  "args": [ "{FILE_ACTIVE_NAME}", "-o", "{FILE_ACTIVE_NAME_BASE}" ],
+  "sh": false
+}
