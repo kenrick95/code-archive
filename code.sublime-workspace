@@ -100,74 +100,10 @@
 			}
 		},
 		{
-			"file": "2015-07/i2sv-20.cpp",
+			"file": "2015-10/10Oct-B.cpp",
 			"settings":
 			{
-				"buffer_size": 1051,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2015-07/i2sv-21.cpp",
-			"settings":
-			{
-				"buffer_size": 886,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2015-07/i2sv-28.cpp",
-			"settings":
-			{
-				"buffer_size": 1526,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2015-07/i2sv-29.cpp",
-			"settings":
-			{
-				"buffer_size": 757,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2015-07/i2sv-30.cpp",
-			"settings":
-			{
-				"buffer_size": 855,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2015-07/i2sv-17.cpp",
-			"settings":
-			{
-				"buffer_size": 1591,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2015-07/i2sv-17-4.out",
-			"settings":
-			{
-				"buffer_size": 326013,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2015-07/i2sv-17-3.out",
-			"settings":
-			{
-				"buffer_size": 62870,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2015-07/i2sv-17-2.out",
-			"settings":
-			{
-				"buffer_size": 65583,
+				"buffer_size": 1815,
 				"line_ending": "Windows"
 			}
 		}
@@ -270,11 +206,30 @@
 	[
 		"/D/Cloud/GitHub/Codeforces-Tools",
 		"/D/Cloud/GitHub/Codeforces-Tools/css",
-		"/D/Cloud/GitHub/Codeforces-Tools/js",
-		"/D/wamp/www/2015/apad"
+		"/D/Cloud/GitHub/Codeforces-Tools/js"
 	],
 	"file_history":
 	[
+		"/D/Data/Code/2015-09/s1-5-d.cpp",
+		"/D/Data/Code/2015-09/s1-5-c.cpp",
+		"/D/Data/Code/2015-09/kattis-test.cpp",
+		"/C/Users/Kenrick/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/MXA8MRZD/email.txt",
+		"/D/Data/Code/2015-08/cf-gym-100735-c.cpp",
+		"/D/Data/Code/2015-08/cf-gym-100735-b.cpp",
+		"/D/Data/Code/2015-08/cf-gym-100735-e.cpp",
+		"/C/Users/Kenrick/Desktop/ac.txt",
+		"/D/Cloud/SkyDrive/NTU/NTUBS/Awaken Challenge/Awaken Challenge.txt",
+		"/D/Data/Code/2015-07/i2sv-17-4.out",
+		"/D/Data/Code/2015-07/i2sv-13.cpp",
+		"/D/Data/Code/2015-07/i2sv-17-3.out",
+		"/D/Data/Code/2015-07/i2sv-17-2.out",
+		"/D/Data/Code/2015-08/icpc-c2-a.cpp",
+		"/D/Data/Code/2015-08/cf-gym-100735-I.py",
+		"/D/Data/Code/2015-07/i2sv-30.cpp",
+		"/D/Data/Code/2015-07/i2sv-29.cpp",
+		"/D/Data/Code/2015-07/i2sv-28.cpp",
+		"/D/Data/Code/2015-07/i2sv-21.cpp",
+		"/D/Data/Code/2015-07/i2sv-20.cpp",
 		"/D/Data/Code/2015-07/i2sv-17.out",
 		"/D/Data/Code/2015-07/i2sv-12.cpp",
 		"/D/Data/Code/2015-07/i2sv-14.cpp",
@@ -382,27 +337,7 @@
 		"/C/Users/Kenrick/Desktop/gh-token.txt",
 		"/D/Data/Downloads/output",
 		"/D/Data/Code/2015-04-16 PayPal 2015/hq9.in",
-		"/D/Data/Code/2015-04-11 Google Codejam Qualification/b.cpp",
-		"/D/Data/Code/2015-04-11 Google Codejam Qualification/d.cpp",
-		"/D/Data/Code/2015-04-16 PayPal 2015/testing.cpp",
-		"/D/Data/Code/2015-04-11 Google Codejam Qualification/c.cpp",
-		"/D/Data/Code/2015-04-11 Google Codejam Qualification/a.cpp",
-		"/D/Data/Code/2015-04-11 Google Codejam Qualification/a.out",
-		"/D/Data/Code/2015-04-11 Google Codejam Qualification/A-large.in",
-		"/D/Data/Code/2015-04-11 Google Codejam Qualification/a-large.out",
-		"/D/Data/Code/2015-04-11 Google Codejam Qualification/A-small-attempt0.in",
-		"/D/Data/Code/2015-04-11 Google Codejam Qualification/B.out",
-		"/D/Data/Code/2015-04-11 Google Codejam Qualification/B-small-attempt0.in",
-		"/D/Data/Code/2015-04-09 NTUACM Session 7/aa.cpp",
-		"/C/Users/Kenrick/AppData/Roaming/Mozilla/Firefox/Profiles/1xo6sq76.default-1418540153225/gm_scripts/HornTracker_Lite_TM/ht.user.js",
-		"/D/Data/Code/2015-04-09 NTUACM Session 7/bb.cpp",
-		"/C/Users/Kenrick/AppData/Roaming/Sublime Text 3/Packages/CMD/cmd.py",
-		"/C/Users/Kenrick/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/Kenrick/AppData/Roaming/Sublime Text 3/Packages/CMD/Context.sublime-menu",
-		"/C/Users/Kenrick/Desktop/path-py2.txt",
-		"/C/Users/Kenrick/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/Kenrick/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/D/wamp/www/dc/user/update.php"
+		"/D/Data/Code/2015-04-11 Google Codejam Qualification/b.cpp"
 	],
 	"find":
 	{
@@ -423,6 +358,38 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" + px[i]",
+			" px[i]",
+			" + py[i]",
+			"x",
+			"g",
+			" + 1",
+			"head",
+			"[child.G.x]",
+			"ma[child.",
+			"A",
+			"32",
+			"head",
+			"x",
+			"child",
+			"head.A.x + dir[i][0]",
+			"head.A.y + dir[i][1]",
+			"e",
+			"s",
+			"%lld",
+			"1024",
+			"myvector",
+			"std::",
+			"a",
+			"prev[final]",
+			" head.b",
+			"head.a",
+			" min(b, head.a + head.b))",
+			"head.b",
+			"head.a",
+			"head.b",
+			"head.a",
+			"\\n",
 			"8",
 			"7",
 			"6",
@@ -518,46 +485,16 @@
 			"int64",
 			"atta",
 			"`patient`.`full_name`",
-			"alt+w",
-			"ctrl+w",
-			"notification",
-			"specialization",
-			"location",
-			"full_name",
-			"notification",
-			"previous_id",
-			"pending",
-			"referral",
-			"patient_id",
-			"opti",
-			"$id",
-			"id",
-			"remarks",
-			"SELECT",
-			"id",
-			"attachment_id",
-			"string",
-			"Session id, returned from `/user/login`",
-			"gender",
-			"address",
-			"full_name",
-			"password",
-			", ",
-			"`",
-			"user",
-			"trim($session_id)",
-			"creating new",
-			"id",
-			"session_id",
-			"consultant_id",
-			"patient_id"
+			"alt+w"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"%I64d",
+			" ",
 			"[",
 			"]",
 			")",
@@ -573,7 +510,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -602,409 +539,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "2015-07/i2sv-20.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1051,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1051
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 524.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "2015-07/i2sv-21.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 886,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								886
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 404.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "2015-07/i2sv-28.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1526,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1526
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 814.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "2015-07/i2sv-29.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 757,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								757
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 450.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "2015-07/i2sv-30.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 855,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								855
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 497.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "2015-07/i2sv-17.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1591,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								704,
-								704
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 378.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "2015-07/i2sv-17-4.out",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 326013,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								66,
-								67
-							],
-							[
-								68,
-								69
-							],
-							[
-								70,
-								71
-							],
-							[
-								72,
-								73
-							],
-							[
-								74,
-								75
-							],
-							[
-								76,
-								77
-							],
-							[
-								78,
-								79
-							],
-							[
-								80,
-								81
-							],
-							[
-								82,
-								83
-							],
-							[
-								84,
-								85
-							],
-							[
-								86,
-								87
-							],
-							[
-								88,
-								89
-							],
-							[
-								90,
-								91
-							],
-							[
-								92,
-								93
-							],
-							[
-								94,
-								95
-							],
-							[
-								96,
-								97
-							],
-							[
-								98,
-								99
-							],
-							[
-								100,
-								101
-							],
-							[
-								102,
-								103
-							],
-							[
-								104,
-								105
-							],
-							[
-								106,
-								107
-							]
-						],
-						"settings":
-						{
-							"colorcode": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "2015-07/i2sv-17-3.out",
+					"buffer": 1,
+					"file": "2015-10/10Oct-B.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 62870,
+						"buffer_size": 1815,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								156,
-								158
-							],
-							[
-								162,
-								164
-							],
-							[
-								168,
-								170
-							],
-							[
-								174,
-								176
-							],
-							[
-								180,
-								182
-							],
-							[
-								186,
-								188
-							],
-							[
-								192,
-								194
-							],
-							[
-								198,
-								200
-							],
-							[
-								204,
-								206
-							],
-							[
-								210,
-								212
-							],
-							[
-								216,
-								218
-							],
-							[
-								222,
-								224
-							],
-							[
-								228,
-								230
+								1113,
+								1113
 							]
 						],
 						"settings":
 						{
 							"colorcode": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 208.0,
+						"translation.y": 359.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "2015-07/i2sv-17-2.out",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 65583,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								156,
-								156
-							]
-						],
-						"settings":
-						{
-							"colorcode": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 162.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1047,7 +611,7 @@
 	},
 	"output.exec":
 	{
-		"height": 209.0
+		"height": 127.0
 	},
 	"output.find_results":
 	{
@@ -1057,7 +621,7 @@
 	"project": "code.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1104,9 +668,29 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "rau",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"D:\\Cloud\\stworkspace\\iderly.sublime-project"
+			],
+			[
+				"lily",
+				"D:\\Cloud\\lily-svr20\\lily\\crowdsourcing\\crowdsourcing\\templates\\crowdsourcing\\lily-crowdsourcing.sublime-workspace"
+			],
+			[
+				"raun",
+				"D:\\wamp\\www\\Raun\\raun.sublime-project"
+			],
+			[
+				"li",
+				"D:\\Cloud\\stworkspace\\lily.sublime-project"
+			],
+			[
+				"ra",
+				"D:\\wamp\\www\\Raun\\raun.sublime-project"
+			],
 			[
 				"rau",
 				"D:\\wamp\\www\\Raun\\raun.sublime-project"
@@ -1128,10 +712,6 @@
 				"D:\\wamp\\www\\plan\\plan.sublime-project"
 			],
 			[
-				"",
-				"D:\\Cloud\\Healint\\healint.sublime-project"
-			],
-			[
 				"code",
 				"D:\\Data\\Code\\code.sublime-project"
 			],
@@ -1142,10 +722,6 @@
 			[
 				"heal",
 				"D:\\Cloud\\Healint\\healint.sublime-project"
-			],
-			[
-				"lily",
-				"D:\\Cloud\\lily-svr20\\lily\\crowdsourcing\\crowdsourcing\\templates\\crowdsourcing\\lily-crowdsourcing.sublime-workspace"
 			],
 			[
 				"lil",
@@ -1171,7 +747,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 202.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
