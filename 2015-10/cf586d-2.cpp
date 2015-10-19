@@ -34,6 +34,8 @@ bool vi_sav[3][128][128];
 bool vi_saok[3][128][128];
 
 bool okay(int y, int x, int t) {
+    if (y < 0 || y > 2)
+        return false;
     if (vi_saok[y][x][t])
         return saok[y][x][t];
     vi_saok[y][x][t] = true;
@@ -62,7 +64,14 @@ bool f(int y, int x, int t) {
     if (x == n)
         return sav[y][x][t] = true;
     if (okay(y, x + 1, t)) {
-        return sav[y][x][t] = f(y - 1, x + 1, t + 1) || f(y, x + 1, t + 1) || f(y + 1, x + 1, t + 1);
+        bool ret = false;
+        if (okay(y - 1, x + 1, t + 1))
+            ret |= f(y - 1, x + 1, t + 1);
+        if (okay(y, x + 1, t + 1))
+            ret |= f(y, x + 1, t + 1);
+        if (okay(y + 1, x + 1, t + 1))
+            ret |= f(y + 1, x + 1, t + 1);
+        return sav[y][x][t] = ret;
     }
 
 }
