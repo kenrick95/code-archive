@@ -53,16 +53,20 @@ int main(){
             //printf("i: %d; j: %d; tm: %d, si_tm: %d, sj_tm: %d, tfx: %d, pi_tf: %d, pj_tf: %d\n", i, j, tm, si_tm, sj_tm, tfx, pi_tf, pj_tf);
             if (dir[i] > 0 && dir[j] < 0) {
                 if (si_tm <= sj_tm) {
-                    int hmp = (si_tm + sj_tm); // half of meeting point (avoid double)
-                    if (2 * pi_tf >= hmp && 2 * pj_tf <= hmp) {
+                    double intersection=(max(si_tm,sj_tm)-min(si_tm,sj_tm))/2.0;
+                    //int hmp = (si_tm + sj_tm); // half of meeting point (avoid double)
+                    if (si_tm +intersection <= f[i] && sj_tm - intersection >= f[j] && si_tm +intersection == sj_tm - intersection ) {
+                    //if (2 * pi_tf >= hmp && 2 * pj_tf <= hmp) {
                         ans[i]++;
                         ans[j]++;
                     }
                 }
             } else if (dir[i] < 0 && dir[j] > 0) {
                 if (si_tm >= sj_tm) {
-                    int hmp = (si_tm + sj_tm); // half of meeting point (avoid double)
-                    if (2 * pi_tf <= hmp && 2 * pj_tf >= hmp) {
+                    double intersection=(max(si_tm,sj_tm)-min(si_tm,sj_tm))/2.0;
+                    //int hmp = (si_tm + sj_tm); // half of meeting point (avoid double)
+                    if (si_tm +intersection >= f[i] && sj_tm - intersection <= f[j] && si_tm +intersection == sj_tm - intersection ) {
+                    //if (2 * pi_tf <= hmp && 2 * pj_tf >= hmp) {
                         ans[i]++;
                         ans[j]++;
                     }
