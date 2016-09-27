@@ -44,7 +44,8 @@ int main(){
                 // if can walk, then build the graph
                 //if (abs(l*l - ((c[i].x - c[j].x)*(c[i].x - c[j].x) + (c[i].y - c[j].y)*(c[i].y - c[j].y))) <= 0.001) {
                 cdis = hypot(c[i].x - c[j].x, c[i].y - c[j].y);
-                if ((l1 + l2 >= cdis) && (cdis + l1 >= l2) && (cdis + l2 >= l1)) {
+                if ((l1 + l2 >= cdis) && (cdis >= max(0, max(l1, l2) - min(l1, l2)))) {
+                //if ((l1 + l2 >= cdis) && (cdis + l1 >= l2) && (cdis + l2 >= l1)) {
                     ed[i].push_back(j);
                     //printf("%d ", j);
                 }

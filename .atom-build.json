@@ -1,7 +1,7 @@
 {
-  "cmd": "g++",
+  "cmd": "C:\\TDM-GCC-32\\bin\\g++",
   "name": "<name of target>",
-  "args": [ "{FILE_ACTIVE_NAME}", "-o", "{FILE_ACTIVE_NAME_BASE}" ],
+  "args": [ "-O2", "{FILE_ACTIVE_NAME}", "-o", "{FILE_ACTIVE_NAME_BASE}" ],
   "sh": false,
   "cwd": "{FILE_ACTIVE_PATH}"
 }
